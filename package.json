@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "LIRI Node App",
+  "main": "liri.js",
+  "dependencies": {
+    "request": "^2.79.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldowers/liri-node-app.git"
+  },
+  "keywords": [
+    "LIRI"
+  ],
+  "author": "Lori Dowers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldowers/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/ldowers/liri-node-app#readme"
+}
