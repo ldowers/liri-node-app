@@ -166,7 +166,7 @@ function omdbResponse(err, resp, body) {
             fs.appendFileSync("log.txt", "Language: " + JSON.parse(body).Language + "\n");
             fs.appendFileSync("log.txt", "Plot: " + JSON.parse(body).Plot + "\n");
             fs.appendFileSync("log.txt", "Actors: " + JSON.parse(body).Actors + "\n");
-            fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + JSON.parse(body).tomatoUserRating + "\n");
+            fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating + "\n");
             fs.appendFileSync("log.txt", "Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL + "\n");
         }
         else {
